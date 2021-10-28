@@ -55,6 +55,7 @@ export default function CustomerNew() {
                                         autoComplete="given-name"
                                         onChange={handleInputChange}
                                         value={first_name}
+                                        required
                                         className="shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 rounded-md py-1 px-4"
                                         style={{
                                             border: '#D1D5DB 1px solid'
@@ -74,6 +75,7 @@ export default function CustomerNew() {
                                         autoComplete="family-name"
                                         onChange={handleInputChange}
                                         value={last_name}
+                                        required
                                         className="shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 rounded-md py-1 px-4"
                                         style={{
                                             border: '#D1D5DB 1px solid'
@@ -92,6 +94,7 @@ export default function CustomerNew() {
                                         id="age"
                                         onChange={handleInputChange}
                                         value={age}
+                                        required
                                         className="md:max-w-xs shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 rounded-md py-1 px-4"
                                         style={{
                                             border: '#D1D5DB 1px solid'
